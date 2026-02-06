@@ -1,5 +1,5 @@
 {
-  "originHash" : "d15e5ca81bb9b520bee575f684a099d2a44e295afd96a70d37bdae2b395a1a1f",
+  "originHash" : "2a947afa7c1fbe270a80478d6ac7347ac5724922be7b7b45be678f3c0a79048a",
   "pins" : [
     {
       "identity" : "swift-corelibs-xctest",
@@ -7,7 +7,7 @@
       "location" : "git@github.com:jerryjrchen/swift-corelibs-xctest.git",
       "state" : {
         "branch" : "try-out-interop",
-        "revision" : "175e8ab78da7b9102629ff503e38e2d75053916e"
+        "revision" : "45af19b4197c29b5b56cb293a479d3f6ded92e2a"
       }
     }
   ],
