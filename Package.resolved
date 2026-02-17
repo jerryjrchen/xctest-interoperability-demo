@@ -1,10 +1,10 @@
 {
-  "originHash" : "2a947afa7c1fbe270a80478d6ac7347ac5724922be7b7b45be678f3c0a79048a",
+  "originHash" : "d0be10f9beb35ce0ab196adec34f7149976016574727367da258ce4702e27dd0",
   "pins" : [
     {
       "identity" : "swift-corelibs-xctest",
       "kind" : "remoteSourceControl",
-      "location" : "git@github.com:jerryjrchen/swift-corelibs-xctest.git",
+      "location" : "https://github.com/jerryjrchen/swift-corelibs-xctest.git",
       "state" : {
         "branch" : "try-out-interop",
         "revision" : "45af19b4197c29b5b56cb293a479d3f6ded92e2a"

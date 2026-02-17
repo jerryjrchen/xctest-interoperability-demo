@@ -17,7 +17,7 @@ let package = Package(
     name: "swift-sandbox",
     dependencies: [
         .package(
-            url: "git@github.com:jerryjrchen/swift-corelibs-xctest.git", branch: "try-out-interop"
+            url: "https://github.com/jerryjrchen/swift-corelibs-xctest.git", branch: "try-out-interop"
         )
     ],
     targets: [

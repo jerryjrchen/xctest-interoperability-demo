@@ -12,7 +12,7 @@ docker build -t swift-corelibs-xctest-docker:latest .
 ```
 
 ```bash
-docker run --memory 8G -it -v $(pwd):/test-project swift-corelibs-xctest-docker /bin/bash
+docker run --memory 8G -it -v $(pwd):/test-project -w /test-project swift-corelibs-xctest-docker /bin/bash
 ```
 
 ## Running the tests
