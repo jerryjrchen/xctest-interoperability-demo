@@ -1,5 +1,5 @@
 {
-  "originHash" : "d0be10f9beb35ce0ab196adec34f7149976016574727367da258ce4702e27dd0",
+  "originHash" : "2557e1e6a7986ef3c343e5bbee43344bae9b7ecf5c9a2865d109b39d0eab2a71",
   "pins" : [
     {
       "identity" : "swift-corelibs-xctest",
@@ -7,7 +7,25 @@
       "location" : "https://github.com/jerryjrchen/swift-corelibs-xctest.git",
       "state" : {
         "branch" : "try-out-interop",
-        "revision" : "45af19b4197c29b5b56cb293a479d3f6ded92e2a"
+        "revision" : "c9ca20399387d61ff02554170b67865d1f204b68"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "65b02a90ad2cc213e09309faeb7f6909e0a8577a",
+        "version" : "604.0.0-prerelease-2026-01-20"
+      }
+    },
+    {
+      "identity" : "swift-testing",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jerryjrchen/swift-testing.git",
+      "state" : {
+        "branch" : "try-out-interop",
+        "revision" : "1920e7631c0e74205eee106f64bf76a2662fa114"
       }
     }
   ],

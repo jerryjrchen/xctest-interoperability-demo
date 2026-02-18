@@ -16,17 +16,17 @@ import PackageDescription
 let package = Package(
     name: "swift-sandbox",
     dependencies: [
-        .package(
-            url: "https://github.com/jerryjrchen/swift-corelibs-xctest.git", branch: "try-out-interop"
-        )
+        .package(url: "https://github.com/jerryjrchen/swift-corelibs-xctest.git", branch: "try-out-interop"),
+        .package(url: "https://github.com/jerryjrchen/swift-testing.git", branch: "try-out-interop"),
     ],
     targets: [
         .testTarget(
             name: "swift-sandboxTests",
             dependencies: [
                 .product(name: "XCTest", package: "swift-corelibs-xctest"),
+                .product(name: "Testing", package: "swift-testing"),
             ]
-        ),
+        )
     ],
     swiftLanguageModes: [.v6]
 )

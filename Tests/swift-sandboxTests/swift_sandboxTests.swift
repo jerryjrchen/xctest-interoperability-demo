@@ -11,8 +11,14 @@
 import Testing
 import XCTest
 
-final class FooTests: XCTestCase {
+final class XCTInteropTests: XCTestCase {
     func testInterop() {
         #expect(Bool(false))
+    }
+}
+
+@Suite struct SWTInteropTests {
+    @Test func `interop works`() {
+        XCTFail("This failure should be visible")
     }
 }
