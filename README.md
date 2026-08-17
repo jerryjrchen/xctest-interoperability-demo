@@ -1,5 +1,9 @@
 # Interoperability demo: using #expect in Corelibs XCTest
 
+**Repo is now archived because Swift 6.4 includes [interoperability][] by default.**
+
+[interoperability]: https://github.com/swiftlang/swift-testing/blob/main/Sources/Testing/Testing.docc/MigratingFromXCTest.md#use-interoperability-between-swift-testing-and-xctest
+
 Try out interoperability! This repo and examples probably only work on Linux.
 
 ## Container setup
